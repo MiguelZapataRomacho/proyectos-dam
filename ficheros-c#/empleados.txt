@@ -1,0 +1,5 @@
+1:Juan Pérez:30:Ventas:2500,50
+2:Ana Gómez:25:Marketing:3000,00
+3:Carlos Ruiz:40:IT:4500,75
+4:Sofía López:35:Recursos Humanos:3200,25
+5:Luis Martínez:28:Ventas:2800,00

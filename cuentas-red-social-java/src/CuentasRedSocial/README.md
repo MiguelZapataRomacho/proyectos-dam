@@ -15,16 +15,6 @@ Aplicación en Java que simula la gestión de cuentas de una red social. Permite
 - **IDE:** Eclipse
 - **Control de versiones:** Git
 
-## 📂 Estructura del proyecto
-
-cuentas-red-social-java/
-├── src/
-│ └── CuentasRedSocial/
-│ ├── Usuario.java
-│ ├── Mensaje.java
-│ └── Main.java
-├── README.md
-
 ## Autor
 
 Miguel Ángel Zapata Romacho  

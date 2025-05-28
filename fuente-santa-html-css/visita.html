@@ -1,0 +1,54 @@
+<!--Miguel Ángel Zapata Romacho-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Visita</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Visítanos</h1>
+            <nav>
+                <a href="indice.html">Volver al inicio</a>
+            </nav>
+        </header>
+
+        <main>
+            <form action="#" method="post">
+                <!--Formulario de texto para nombre y apellidos-->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+
+                <!--Formulario tipo radio para género-->
+                <p>Género:</p>
+                <label><input type="radio" name="genero" value="masculino">Masculino</label>
+                <label><input type="radio" name="genero" value="femenino">Femenino</label>
+                <label><input type="radio" name="genero" value="otro">Otro</label>
+                <!--Formulario desplegable para edad-->
+                <label for="edad">Rango de edad:</label>
+                <select id="edad" name="edad">
+                    <option value="menor18">Menor de 18 años</option>
+                    <option value="18-30">De 18 a 30 años</option>
+                    <option value="30-65">De 30 a 65 años</option>
+                    <option value="mayor65">Mayor de 65 años</option>
+                </select>
+                <!--Formulario de campo de texto para comentarios-->
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios"></textarea>
+                <!--Casilla de verificación-->
+                <label>
+                    <input type="checkbox" name="acepto" required>Acepto las condiciones
+                </label>
+                <!--Botón de enviar-->
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <footer>
+            <p>Miguel Ángel Zapata Romacho - 1º DAM - 2025</p>
+        </footer>
+    </body>
+</html>
